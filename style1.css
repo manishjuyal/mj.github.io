@@ -379,7 +379,7 @@ p{font-size:13px;}
 .navbar-toggler {position: absolute;right: 14px;}
 .navbar-toggler {border-radius: 59px;}
 .nav-item a {padding: 0px;margin: 8px 0px;}
-.contactus {width: 100%;height: 72vh;position: relative;padding: 0px 0;}
+.contactus {width: 100%;height: 76vh;position: relative;padding: 0px 0;}
 .h1, h1 {font-size: 30px;}
 .font-weight-bold {font-weight: 500!important;}
 .design {margin: 0px 33px;}
@@ -398,7 +398,7 @@ p{font-size:13px;}
 .header-button a{font-size:10px;}
 .extra-div {padding: 10px 29px!important; border-radius: 130px;}
 .image img {width: 280px;height: 258px;padding-left: 14px;}
-.contactus {width: 100%;height: 71vh;position: relative;padding: 0px 0;}
+.contactus {width: 100%;height: 76vh;position: relative;padding: 0px 0;}
 .serviceoffers2 {padding: 26px 0!important;}
 .footersection  li, li a{font-size:13px; line-height: 1.2;}
 .navbar-toggler {position: absolute;right: 6px;}
@@ -419,10 +419,11 @@ p{font-size:13px;}
 .navbar-toggler {font-size: 15px;border: 2px solid transparent;border-radius: 28px;}
 .header img {width: 65%;}
 .navbar-nav .nav-link {padding-right: 1px;padding-left: 0;padding-top: 10px;}
-.nav-item a {font-size: 13px;}
-.header-section {height: 95%;}
+.nav-item a {font-size: 13px;color:blue!important;}
+.header-section {height: 76%;}
 .serviceoffers2 p {padding: 0px 0px;}
 .names h1 {font-size: 15px;}
-.contactus {height: 72vh;}
+.contactus {height: 80vh;}
 .image img {width: 249px;}
+.extra-div {transition: 0.2s;}
 }
