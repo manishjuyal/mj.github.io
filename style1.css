@@ -1,0 +1,428 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;
+font-family: 'Varela Round', sans-serif;}
+
+a{ text-decoration :none;}
+
+a:hover{ text-decoration:none;}
+
+li{ list-style:none;}
+
+/* this is for universal paragraph styling will effect all below  paragraph*/
+p{
+     font-size:1rem;
+     line-height:1.8;
+     font-weight:400;
+     color:#606060;
+     }
+
+
+/******************actual css class start********/
+/*this is for header section where is the image present*/
+.header{
+          width             : 100%;
+          height            : 100vh;
+          background-image  : url("../images/c2.jpg");
+          background-repeat : no-repeat;
+          background-size   : 100% 100%;
+          clip-path         : polygon(100% 0%,100% 77%, 50% 100%,0 75%,0 0);
+          position          : relative;
+      }
+/*this is for image of mj design and development*/
+.header img{
+                   width:70%;
+                   text-align:center;
+                   float:left;
+                }
+
+
+.navbar-toggler{position:absolute;right:20px;}
+
+/* this below is used for navbar showing image*/
+.navbar:before{
+                content: "";
+                position:absolute;
+                top:0%;
+                bottom:0%;
+                left:0;
+                right:0;
+                opacity:.3;
+                z-index:-1;
+                background:linear-gradient(to right,#le5799 0%,#3ccdbb 0%,#16c9f6 100%);
+                }
+
+/* for navbar item (home,aboutus etc) color */
+.nav-item a{
+            font-size:1rem;
+            color :white!important;
+            font-weight:bolder;
+}
+
+.nav-item a:hover{color:red!important;}
+
+/* this is for we are developers,we create,contact*/
+.header-section{
+                 width:100%;
+                 height:inherit;
+                 color:black;
+                 text-align:center;
+                 position:relative;
+}
+
+/* this will place we are develpor , we create,contact in center place*/
+.center-div{
+             width:100%;
+             height: auto;
+             position: absolute;
+             top:50%;
+             left:50%;
+             transform: translate(-50%,-50%);
+             -ms-transform: translate(-50%,-50%);
+             transform: translate(-50%,-50%);
+}
+
+/* we create world best website paragraph*/
+.center-div p{
+               font-size:1.3rem;
+               padding:10px 0 20px 0;
+               color:black;
+               }
+.h1, h1 {
+    font-size: 54px;
+}
+
+/*this is for button i.e contact us */
+.header-button a{
+
+                   border:1px  ;
+                   border-radius:100px;
+                   margin:0 5px;
+                   padding:12px 35px;
+                   outline:none;
+                   color:white;
+                   background-color:blue;
+                   font-size:1rem;
+                   font-weight:400;
+                   line-height:1.4;
+                   text-align:center;
+                   }
+/* this is when hover is done in contact us button */
+.header-button a:hover{
+                        color:blue;
+                        background:white;
+                        text-decoration:none;
+                        box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+/**************extra header div css start  *************/
+
+.header-extradiv{
+                  width:100%;
+                  background:;
+                  height:auto;
+                  top:0px;
+                  text-align:center;
+                  position:relative;
+
+                  }
+
+.header-extradiv:before{
+                content: "";
+                position:absolute;
+                top:0%;
+                bottom:0%;
+                left:0;
+                right:0;
+                z-index:-1;
+                background:linear-gradient(160deg,#93CCEA 25% ,orange 100%);
+                }
+
+/* this is for boxes*/
+.extra-div{
+           background:white;
+           border:medium none;
+           padding:50px!important;
+           border-radius:3px;
+           transition:0.3s;
+           margin:/* samaj ni aara*/ px;
+           }
+
+/*boxes after hover */
+.extra-div:hover{
+                  background: greenyellow;
+                  box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.3);
+                  transform: translateY(-20px);
+                 }
+
+/*this is for font styling in boxes*/
+.extra-div h2{
+               font-size:1.2rem;
+               margin:20px 0 15px 0;
+               font-weight:bold;
+               line-height:1.1;
+               word-spacing:4px;
+               }
+/*this is for skills part container*/
+.serviceoffers2{
+
+                   padding:50px 0!important;
+                   margin-top:0px;
+                   margin-bottom:0px;
+                   position:relative;
+                     }
+
+.serviceoffers2 p{
+                padding:0px 100px;
+                  }
+
+.serviceoffers2:before{
+                content: "";
+                position:absolute;
+                top:0%;
+                bottom:0%;
+                left:0;
+                right:0;
+                z-index:-1;
+                background:linear-gradient(340deg,#EED9C4 55% ,white 0%);
+                }
+
+/********** this is changing margin between (html ,css,backend names etc) and their below effct**/
+.headings{
+ margin-bottom:50px;}
+ /***********************************************************************/
+
+
+/*******this is for   our services and quality skills***/
+ .headings h1{
+ font-size:2rem;
+ font-weight:600;
+ text-transform:uppercase;
+ }
+ /***************************************************/
+
+
+ /** this is for html,css,javascript,backend,design*/
+ .names h1{
+           color:#2e2e2e;
+           font-size:1.2rem;
+           text-transformation: uppercase;
+           font-weight:bold;
+           }
+
+/* used for design of html80% */
+.progress{
+width:75%!important;
+height:0.6rem;
+margin-bottom:25px!important;
+}
+
+
+i{
+color:chocolate;
+}
+
+/* image in quality skills*/
+.image img{
+            width:450px;
+             height:350px;
+             padding-left:50px;
+
+            }
+
+.contactus{
+           width:100%;
+           height:100vh;
+           position:relative;
+           padding:80px 0;
+           }
+
+.contactus:before{
+                content: "";
+                position:absolute;
+                top:0%;
+                bottom:0%;
+                left:0;
+                right:0;
+                z-index:-1;
+                background:linear-gradient(157deg,#EED9C4 55% ,white 0%);
+                }
+
+.form-button button{
+
+                   border:1px  #16c9f6  ;
+                   border-radius:100px;
+                   margin:0 5px;
+                   padding:12px 35px;
+                   outline:none;
+                   color:white;
+                   background:transparent;
+                   font-size:1rem;
+                   font-weight:400;
+                   line-height:1.4;
+                   text-align:center;
+                   }
+
+ form:hover .form-button button{
+                        color:white;
+                        background:#B87333;
+                        text-decoration:none;
+                        box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+::placeholder{
+             font-size:0.85rem;
+             }
+
+             /*  footer starts*/
+
+.footersection {
+               width:100%;
+               height:auto;
+               padding:70px 0 20px 0;
+               background:#003153;
+               position:relative;
+               }
+
+.footersection p{
+
+                 color:white;
+
+                 }
+
+.footersection  li, li a{
+
+                    font-size:0.9rem;
+                    margin-bottom:10px;
+                    line-height:1.6;
+                    font-weight:400;
+                    color:white;
+                    text-transform:capitalize;
+                    }
+
+.footersection :hover{
+                           color:#F5F5DC
+                           }
+
+
+.footersection h3{
+                  text-transform:uppercase;
+                  color:yellow;
+                  margin-bottom:25px;
+                  font-size:1.2rem!important;
+                  font-weight:600;
+                  text-shadow:0 2px 5px rgba(0,0,0,0.4);
+                  }
+
+
+
+/*           MEDIA QUERY         */
+
+/* BIG LANDSCAPE -TABLETS ,laptops,desktops */
+@media (min-width:1200px)
+{ }
+
+
+/*tablet,landscape, low resolution laptop,desktop */
+@media(max-width:990px)
+{
+.navbar-toggler {position: absolute;right: 13px;}
+.navbar-toggler {border-radius: 59px;}
+.nav-item a {padding: 0px;margin: 8px 0px;}
+.navbar-nav li{text-align:center!important;}
+.header img {width: 75%!important;}
+.extra-div{margin: 8px 0px;}
+.extra-div{padding: 19px 28px!important;border-radius: 500px;}
+.contactus {height: 75vh;position: relative;padding: 0px 0;}
+.footer-div:nth-child(3){padding-top:20px;}
+}
+
+
+/*potrait tablet,e-reader,kindle*/
+@media(max-width:860px)
+{
+.h1, h1 {font-size: 45px;}
+.navbar-toggler {position: absolute;right: 13px;}
+.navbar-toggler {border-radius: 59px;}
+.nav-item a {padding: 0px;margin: 8px 0px;}
+.header img {width: 66%!important;}
+.extra-div{margin: 5px 0px;}
+.serviceoffers2 p {padding: 0px 37px;}
+.design{padding:0px 0px; margin:0px 0px;}
+.image{padding:0px 0px;margin:0px 0px;}
+.contactus {height: 78vh;position: relative;padding: 0px 0;}
+.footer-div:nth-child(3){padding-top:15px;}
+}
+
+
+/*smartphone,android phone,landscape phone*/
+@media(max-width:680px)
+{
+.navbar-toggler {position: absolute;right: 11px;}
+.navbar-toggler {border-radius: 59px;}
+.nav-item a {padding: 0px;margin: 8px 0px;}
+.b1{font-size:35px;}
+.p1{font-size:18px;}
+.header-button a{font-size:13px;}
+.extra-div{padding: 10px 29px!important;margin: 5px 0px;border-radius: 130px;}
+.contactus {width: 100%;height: 72vh;position: relative;padding: 0px 0;
+.serviceoffers2 p {padding: 0px 25px;}
+.header img {width: 66%!important;}
+p{font-size:13px;}
+
+}
+
+
+/*smartphone,potraitphone,480x320 phones*/
+@media(max-width:580px)
+{
+.b1{font-size:30px;}
+.navbar-toggler {position: absolute;right: 14px;}
+.navbar-toggler {border-radius: 59px;}
+.nav-item a {padding: 0px;margin: 8px 0px;}
+.contactus {width: 100%;height: 72vh;position: relative;padding: 0px 0;}
+.h1, h1 {font-size: 30px;}
+.font-weight-bold {font-weight: 500!important;}
+.design {margin: 0px 33px;}
+.image img {width: 300px;height: 310px;padding-left: 17px;}
+.footersection  li, li a{font-size:13px; line-height: 1.2;}
+.extra-div {padding: 4px 29px!important;}
+.header img {width: 66%;}
+}
+
+
+
+@media(max-width:430px)
+{
+.b1 {font-size: 25px;}
+.center-div p {font-size: 15px;}
+.header-button a{font-size:10px;}
+.extra-div {padding: 10px 29px!important; border-radius: 130px;}
+.image img {width: 280px;height: 258px;padding-left: 14px;}
+.contactus {width: 100%;height: 71vh;position: relative;padding: 0px 0;}
+.serviceoffers2 {padding: 26px 0!important;}
+.footersection  li, li a{font-size:13px; line-height: 1.2;}
+.navbar-toggler {position: absolute;right: 6px;}
+.navbar-toggler {border-radius: 89px;}
+.nav-item a {padding: 3px;margin: 6px 0px;}
+.header img {width: 66%;}
+.names h1{font-size:16px;}
+p{font-size:13px;}
+}
+
+
+
+@media(max-width:350px)
+{
+.b1 {font-size: 20px;}
+.center-div p {font-size: 13px;}
+.navbar-toggler{position:absolute;right:6px;}
+.navbar-toggler {font-size: 15px;border: 2px solid transparent;border-radius: 28px;}
+.header img {width: 65%;}
+.navbar-nav .nav-link {padding-right: 1px;padding-left: 0;padding-top: 10px;}
+.nav-item a {font-size: 13px;}
+.header-section {height: 95%;}
+.serviceoffers2 p {padding: 0px 0px;}
+.names h1 {font-size: 15px;}
+.contactus {height: 72vh;}
+.image img {width: 249px;}
+}

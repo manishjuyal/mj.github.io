@@ -1,0 +1,272 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!------------------Here below is for css styling------------------------------------------------------------->
+      <link rel="stylesheet" type="text/css"  href="{% static 'css/style1.css' %}">
+      <!--------------------------here font description ------------------------------------------------->
+      <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" >
+      <title>MJ Designing & Development</title>
+  </head>
+  <body>
+  {% load static %}
+  <!------------------------------navigation bar--------------------------------------------------------------------->
+
+  <div class="header" id="topheader">
+    <nav class="navbar  navbar-expand-lg navbar-dark  ">
+        <div class="container text-uppercase " ><!-- for giving side spaces from both sides in navbar items-->
+           <a class="logo" href="#">
+              <img src="{%static 'images/mj2.png' %}"  class="d-inline-block align-top" alt="">
+           </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ml-auto text-uppercase">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="http://127.0.0.1:8000/">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#ourservices">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutus">About us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#contactus">Contact Us</a>
+                  </li>
+             </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section class="header-section">
+      <div class="center-div">
+         <h1 class="b1 font-weight-bold"><b>We Are The Web Developers</b></h1>
+         <p class="p1 font-weight-normal">we create the world best websites</p>
+        <div class="header-button">
+           <a href="#contactus">CONTACT US </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-----------------------------------OUR SERVIVES------------------------------------------------------------->
+
+  <section class="headeroffer" id="ourservices">
+    <div class="containerheadings text-center mt-5  ">
+      <h1 class="text-center ">OUR SERVICES</h1>
+      <p class="text-center">We Provide Wide Range Of Services That Provides Best Services Among All The Others</p>
+    </div>
+  </section>
+                               <!--this is for boxes-->
+  <section class="header-extradiv mt-5">
+       <div class="container ">
+         <div class="row ">
+           <div class="extra-div col-lg-4 col-md-4 col-12 ">
+             <a href="#">
+               <i class="fa-3x fa fa-desktop" aria-hidden="true"></i>
+             </a>
+                <h2>Development</h2>
+                <p>we Develop your website according to your requirements. We try our best to develop your project
+                    in effective manner so, it can run smoothly​.
+                </p>
+
+           </div>
+           <div class=" extra-div col-lg-4 col-md-4 col-12">
+             <a href="#">
+                <i class="fa-3x fa fa-bullhorn" aria-hidden="true"></i>
+             </a>
+              <h2>Marketing</h2>
+              <p>we also provide marketing and management skills to develop your
+                 business and help to get the traffic on your website​.
+           ​  </p>
+           </div>
+           <div class="extra-div col-lg-4 col-md-4 col-12">
+              <a href="#">
+                <i class="fa-3x fa fa-window-restore" aria-hidden="true"></i>
+              </a>
+              <h2> Design</h2>
+              <p> Our expert designers are here to design your website that attracts the visitors to your
+               site. Design always plays an important role to attract visitors on site.</p>
+           </div>
+           <div class="extra-div col-lg-4 col-md-4 col-12">
+             <a href="#">
+               <i class="fa-3x fa fa-shopping-cart" aria-hidden="true"></i>
+             </a>
+             <h2>ECommerce </h2>
+              <p>we provide best UI and Responsive Ecommerce websites which helps
+              to get you customers we also provide some unique features in Ecommerce sites.</p>
+           </div>
+             <div class="extra-div col-lg-4 col-md-4 col-12">
+              <a href="#">
+                <i class="fa-3x fa fa-shield" aria-hidden="true"></i>
+              </a>
+              <h2>Security</h2>
+              <p>we also provide security and strong backend so that no potential harm caused by others.
+               Backend provide the services that make up a business function.</p>
+           </div>
+           <div class="extra-div col-lg-4 col-md-4 col-12">
+             <a href="#">
+                <i class="fa-3x fa fa-headphones" aria-hidden="true"></i>
+             </a>
+             <h2>Help & Support</h2>
+             <p> We also known for Help & Support which was provided to everyone 24/7.
+              Our Developers and Support team is always available to help you.</p>
+           </div>
+         </div>
+       </div>
+  </section>
+
+  <!-------------------------------------quality skills---------------------------------------------------------------->
+
+  <section class="serviceoffers2 "  id="aboutus">
+    <div class="containerheadings2 text-center  ">
+       <h1 class="text-center ">QUALITY SKILLS</h1>
+       <p class="text-center mt-3">Our All Team Members Are Having World Class Development and Marketing Techniques,
+        We Are Expertise In Design, Backend and Logic Implementation, As These Are
+        One Of The Best Techniques Which Shows Technical Strength.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="design col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+          <div class="names ">
+            <h1>Html</h1>
+             <div class="progress ">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:100%">100%</div>
+             </div>
+          </div>
+          <div class="names ">
+            <h1>Css</h1>
+             <div class="progress">
+             <div class="progress-bar progress-bar-striped progress-bar-animated
+                        bg-success" style="width:80%">80%
+             </div>
+          </div>
+          </div>
+           <div class="names ">
+             <h1>JavaScript</h1>
+             <div class="progress ">
+               <div class="progress-bar progress-bar-striped progress-bar-animated
+                         bg-warning" style="width:70%">70%
+               </div>
+             </div>
+           </div>
+           <div class="names ">
+             <h1>UI/UX Designing</h1>
+             <div class="progress ">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:85%">85%</div>
+             </div>
+           </div>
+           <div class="names ">
+             <h1>Backend</h1>
+             <div class="progress ">
+               <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width:80%">80%</div>
+             </div>
+           </div>
+        </div>
+
+        <div class="image col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
+              <img src="{%static 'images/man3.png' %}">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ----------------------------contactus-------------------------------------------------------------------------->
+
+  <section class="contactus"  id="contactus">
+    <div class="containerheadings3 text-center  ">
+      <h1 class="text-center">CONTACT US</h1>
+      <p class="text-center">We're Here To Help And Answer Any Question You Might Have.We Look Forward To Hearing You.</p>
+    </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1 ">
+                  <form action=" " method="post">{% csrf_token %}
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="name" id="username" required autocomplete="off"
+                        placeholder="Enter Name">
+                   </div>
+
+                      <div class="form-group">
+                          <input type="email" class="form-control" name="mail" id="email" required autocomplete="off"
+                            placeholder="Enter Email">
+                   </div>
+
+                   <div class="form-group">
+                    <input type="number" class="form-control"  name="number" id="mobile" required autocomplete="off"
+                     placeholder="Enter Mobile Number">
+                   </div>
+
+                   <div class="form-group">
+                         <textarea class="form-control"  name="message" rows="4" id="message"
+                         required autocomplete="off" placeholder="Enter Message"></textarea>
+                   </div>
+
+                  <div class="d-flex justify-content-center form-button">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+</form>
+
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!----------------------------------------footer section----------------------------------------------------------------------------->
+
+  <footer class="footersection "  id="footerdiv">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+         <div>
+           <h3>ABOUT MJ DESIGN AND DEVELOPMENT</h3>
+           <p>MJ design & development is the Company who make your dream come true of having an online business.
+             We made in the best way to tell the information of your  business.</p>
+         </div>
+       </div>
+
+       <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+         <div>
+           <h3>IMPORTANT LINKS</h3>
+           <ul>
+             <li><a href="#topheader">Home</a></li>
+             <li><a href="#ourservices">Services</a></li>
+             <li><a href="#aboutus">About us</a></li>
+           </ul>
+         </div>
+       </div>
+
+    <div class="col-lg-4 col-md-6 col-12  footer-div text-center">
+         <div>
+           <h3>FEEL FREE TO GET IN TOUCH WITH US</h3>
+           <ul>
+             <li>Location : Faridabad(India)</li>
+             <li>Mail : mj9812617@gmail.com</li>
+             <li>Contact : +918*******86</li>
+           </ul>
+         </div>
+       </div>
+
+
+     </div>
+   </div>
+   <div class="mt-5 text-center">
+     <p>Copyright © 2020 All rights reserved | MJ Design And Development</p>
+   </div>
+  </footer>
+
+<!--------------------------------------------------------------------------------------------------------------------->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
