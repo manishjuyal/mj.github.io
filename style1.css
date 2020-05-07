@@ -327,7 +327,7 @@ color:chocolate;
 {
 .navbar-toggler {position: absolute;right: 13px;}
 .navbar-toggler {border-radius: 59px;}
-.nav-item a {padding: 0px;margin: 8px 0px;}
+.nav-item a {padding: 0px;margin: 8px 0px;color:blue!important;}
 .navbar-nav li{text-align:center!important;}
 .header img {width: 75%!important;}
 .extra-div{margin: 8px 0px;}
@@ -343,7 +343,7 @@ color:chocolate;
 .h1, h1 {font-size: 45px;}
 .navbar-toggler {position: absolute;right: 13px;}
 .navbar-toggler {border-radius: 59px;}
-.nav-item a {padding: 0px;margin: 8px 0px;}
+.nav-item a {padding: 0px;margin: 8px 0px;color:blue!important;}
 .header img {width: 66%!important;}
 .extra-div{margin: 5px 0px;}
 .serviceoffers2 p {padding: 0px 37px;}
@@ -359,7 +359,7 @@ color:chocolate;
 {
 .navbar-toggler {position: absolute;right: 11px;}
 .navbar-toggler {border-radius: 59px;}
-.nav-item a {padding: 0px;margin: 8px 0px;}
+.nav-item a {padding: 0px;margin: 8px 0px;color:blue!important;}
 .b1{font-size:35px;}
 .p1{font-size:18px;}
 .header-button a{font-size:13px;}
@@ -378,7 +378,7 @@ p{font-size:13px;}
 .b1{font-size:30px;}
 .navbar-toggler {position: absolute;right: 14px;}
 .navbar-toggler {border-radius: 59px;}
-.nav-item a {padding: 0px;margin: 8px 0px;}
+.nav-item a {padding: 0px;margin: 8px 0px;color:blue!important;}
 .contactus {width: 100%;height: 76vh;position: relative;padding: 0px 0;}
 .h1, h1 {font-size: 30px;}
 .font-weight-bold {font-weight: 500!important;}
@@ -403,7 +403,7 @@ p{font-size:13px;}
 .footersection  li, li a{font-size:13px; line-height: 1.2;}
 .navbar-toggler {position: absolute;right: 6px;}
 .navbar-toggler {border-radius: 89px;}
-.nav-item a {padding: 3px;margin: 6px 0px;}
+.nav-item a {padding: 3px;margin: 6px 0px;color:blue!important;}
 .header img {width: 66%;}
 .names h1{font-size:16px;}
 p{font-size:13px;}
