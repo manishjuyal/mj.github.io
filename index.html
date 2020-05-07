@@ -5,7 +5,7 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <!------------------Here below is for css styling------------------------------------------------------------->
-      <link rel="stylesheet" type="text/css"  href="{% static 'css/style1.css' %}">
+      <link rel="stylesheet"   href="style1.css">
       <!--------------------------here font description ------------------------------------------------->
       <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,14 +13,13 @@
       <title>MJ Designing & Development</title>
   </head>
   <body>
-  {% load static %}
   <!------------------------------navigation bar--------------------------------------------------------------------->
 
   <div class="header" id="topheader">
     <nav class="navbar  navbar-expand-lg navbar-dark  ">
         <div class="container text-uppercase " ><!-- for giving side spaces from both sides in navbar items-->
            <a class="logo" href="#">
-              <img src="{%static 'images/mj2.png' %}"  class="d-inline-block align-top" alt="">
+              <img src="mj2.png"  class="d-inline-block align-top" alt="">
            </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +28,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav ml-auto text-uppercase">
                   <li class="nav-item active">
-                    <a class="nav-link" href="http://127.0.0.1:8000/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#topheader ">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link " href="#ourservices">Services</a>
@@ -173,7 +172,7 @@
         </div>
 
         <div class="image col-lg-6 col-md-12 col-10 offset-1 offset-lg-0">
-              <img src="{%static 'images/man3.png' %}">
+              <img src="man3.png">
         </div>
       </div>
     </div>
@@ -189,7 +188,7 @@
       <div class="container">
           <div class="row">
               <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1 ">
-                  <form action=" " method="post">{% csrf_token %}
+                  <form>
                   <div class="form-group">
                       <input type="text" class="form-control" name="name" id="username" required autocomplete="off"
                         placeholder="Enter Name">
