@@ -328,7 +328,7 @@ color:chocolate;
 .navbar-toggler {position: absolute;right: 13px;}
 .navbar-toggler {border-radius: 59px;}
 .nav-item a {padding: 0px;margin: 8px 0px;color:blue!important;}
-.navbar-nav li{text-align:center!important;}
+.navbar-nav li{text-align:left;}
 .header img {width: 75%!important;}
 .extra-div{margin: 8px 0px;}
 .extra-div{padding: 19px 28px!important;border-radius: 500px;}
